@@ -1,2 +1,2 @@
 # keyless-playwright
- 
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/YBR8fQXDATVp3KPyghH9Vf/48qEjWPQtovCdtdwBRUt7B/tree/keyless-master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/YBR8fQXDATVp3KPyghH9Vf/48qEjWPQtovCdtdwBRUt7B/tree/keyless-master)
