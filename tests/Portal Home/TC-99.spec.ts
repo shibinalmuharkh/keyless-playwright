@@ -1,4 +1,4 @@
-// Verify Portal Home Page
+// Verify PM Portal Home Page
 // created by shibin
 
 import { test, expect } from '@playwright/test';
