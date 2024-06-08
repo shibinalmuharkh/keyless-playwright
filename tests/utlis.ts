@@ -4,9 +4,9 @@ import { welcomeManagerTextElement, logout_Button } from './dashboard';
 import { urlLogin } from './const';
 
 
-export async function visitLoginUrl (page: Page) { 
+export async function visitLoginUrl(page: Page) {
     await page.goto(urlLogin);
-  }
+}
 
 
 export async function login(page: Page, username: string, password: string) {
@@ -34,4 +34,11 @@ export async function invalidLogin(page: Page, username: string, password: strin
 export async function logoff(page) {
     await page.click(logout_Button);
     await page.waitForTimeout(3000);
+}
+
+export async function closeInstalltionPopUp(page) {
+    const locator = page.getByText('X').nth(2);
+    if (await locator.isVisible()) {
+        await locator.click();
+    }
 }
