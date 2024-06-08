@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import { login, visitLoginUrl } from '../utlis';
 import { password_qatest, username_qatest } from '../const';
-import { shop_sideBar, dashboard_title, dashboard_sidebar, locks_sidebar, propertyManagement_sidebar, users_sidebar, routines_sidebar, reports_sidebar, tickets_sidebar, scheduleInstallation_sidebar, rfid_sidebar, settings_sidebar, plansandtrans_sidebar } from './dashboard';
+import { shop_sideBar, dashboard_title, dashboard_sidebar, locks_sidebar, propertyManagement_sidebar, users_sidebar, routines_sidebar, reports_sidebar, tickets_sidebar, scheduleInstallation_sidebar, rfid_sidebar, settings_sidebar, plansandtrans_sidebar } from '../dashboard';
 
 test.beforeEach(async ({ page }) => {
     await visitLoginUrl(page);
